@@ -1,1 +1,24 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+nav.navbar.navbar-light.bg-faded {
+    margin:  0;
+    padding:  0;
+    height: 100px;
+	background-color: #353127;
+} 
+.navbar-brand{
+	margin: 20px 50px;
+}
+ul.nav.navbar-nav.float-xs-right{
+	margin-right: 100px;
+}
+li.nav-item{
+	margin: 0px 17px; 
+}
+a.nav-link{
+	font-family: segoe ui;
+	text-transform: uppercase;
+	font-size:15px;
+	line-height:78px;
+	color: white;
+}
