@@ -10,7 +10,7 @@ nav.navbar.navbar-light.bg-faded {
 	background-color: white;
 } 
 .navbar-brand{
-	margin: 10px 50px;
+	margin: 10px 100px;
 }
 ul.nav.navbar-nav.float-xs-right{
 	margin-right: 100px;
@@ -32,13 +32,14 @@ a.nav-link{
 
 li.nav-item {
     float: none!important;
-    display: inline;
-    margin: 0 5%;
+    display: inline!important;
+    margin: 0 0;
+	
 }
 
 ul.nav.navbar-nav.float-xs-right {
-    float: none!important;
-    display: inline;
+    float: none;
+    text-align: center;
 }
 
 a.nav-link {
@@ -47,14 +48,16 @@ a.nav-link {
     display:  inline!important;
 }
 
-li.nav-item {
-    display:  inline;
-}
 
 	a.navbar-brand {
 	    display:  block;
-	    width:  80%;
+	    width:  60%;
 	    text-align:  center;
+	}
+	.boxtopcon img{
+		height: 150px!important;
+		width: 150px!important;
+		margin-top: 100px;
 	}
 }
 /*end menu style*/
@@ -72,4 +75,32 @@ li.nav-item {
 	width: 50%;
 	height: 100%;
 	background-color: #e4555b;
+	z-index: 1;
+}
+.boxtopcon{
+	z-index: 2;
+	position: relative;
+	padding-top: 15%;
+}
+.boxtopcon img{
+	border-radius: 50%; 
+	margin-bottom: 23px; 
+}
+.boxtopcon h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+.boxtopcon p{
+	font-size: 14px;
+	line-height: 23px;
+	width: 30%;
+	margin: auto;
+	margin-bottom: 34px;
+}
+a.nuthire.btn.btn-primary{
+	background-color: black;
+	width: 170px;
+	border: none;
+	border-radius: 0px;
 }
