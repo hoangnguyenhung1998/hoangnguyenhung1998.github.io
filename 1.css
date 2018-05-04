@@ -40,6 +40,9 @@ li.nav-item {
 ul.nav.navbar-nav.float-xs-right {
     float: none;
     text-align: center;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 a.nav-link {
