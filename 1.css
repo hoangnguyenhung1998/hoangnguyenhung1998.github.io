@@ -33,16 +33,17 @@ a.nav-link{
 li.nav-item {
     float: none!important;
     display: inline!important;
-    margin: 0 0;
-	
+    margin: 0 0;	
 }
 
 ul.nav.navbar-nav.float-xs-right {
     float: none;
     text-align: center;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: white;
+    border-top: 1px grey solid;
 }
 
 a.nav-link {
@@ -107,3 +108,4 @@ a.nuthire.btn.btn-primary{
 	border: none;
 	border-radius: 0px;
 }
+/*end infor style*/
