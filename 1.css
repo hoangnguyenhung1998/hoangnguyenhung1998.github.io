@@ -191,3 +191,24 @@ span.motaqt{
 	-o-transform: scale(1.2,1.2);
 	-ms-transform: scale(1.2,1.2);
 }
+/*end img san pham*/
+.tonghop{
+	height: 200px;
+	width: 100%;
+	background-color: #e9585f;
+	margin-top: 100px;
+	position: relative;
+}
+.icoimg{
+	height: 100px;
+	width: 100px;
+}
+.cot1_4 p{
+	color: white;
+	font-size: 30px;
+	font-family: segoe ui light;
+	font-weight: bolder;	
+}
+.cot1_4{
+	display: inline;
+}
