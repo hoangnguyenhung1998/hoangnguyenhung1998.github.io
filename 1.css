@@ -30,6 +30,10 @@ a.nav-link{
 		
 	}
 
+p {
+    color: yellow!important;
+}
+
 li.nav-item {
     float: none!important;
     display: inline!important;
@@ -65,9 +69,6 @@ a.nav-link {
 	}
 	.cot3_3{
 		margin-top: 30px;
-	}
-	.cot1_4 p{
-		color: yellow!important;
 	}
 }
 /*end menu style*/
@@ -196,15 +197,15 @@ span.motaqt{
 }
 /*end img san pham*/
 .tonghop{
-	height: 200px;
+	height: 150px;
 	width: 100%;
 	background-color: #e9585f;
 	margin-top: 100px;
 	position: relative;
 }
 .icoimg{
-	height: 90px;
-	width: 90px;
+	height: 50px;
+	width: 50px;
 }
 .cot1_4 p{
 	color: white;
@@ -214,5 +215,4 @@ span.motaqt{
 }
 .cot1_4{
 	display: inline;
-	margin-top: 15px;
 }
