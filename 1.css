@@ -30,10 +30,6 @@ a.nav-link{
 		
 	}
 
-p {
-    color: yellow!important;
-}
-
 li.nav-item {
     float: none!important;
     display: inline!important;
@@ -208,10 +204,10 @@ span.motaqt{
 	width: 50px;
 }
 .cot1_4 p{
-	color: white;
+	color: yellow;
 	font-size: 30px;
 	font-family: segoe ui light;
-	font-weight: bolder;	
+	font-weight: bolder;
 }
 .cot1_4{
 	display: inline;
