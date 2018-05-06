@@ -30,6 +30,10 @@ a.nav-link{
 		
 	}
 
+.container.text-xs-center.khoitonghop {
+    background-color:  aliceblue;
+}
+
 .khoicomment {
     margin-top: 500px;
 }
@@ -202,7 +206,7 @@ span.motaqt{
 .tonghop{
 	height: 150px;
 	width: 100%;
-	background-color: #e9585f;
+	background-color: aliceblue;
 	margin-top: 100px;
 	position: relative;
 }
