@@ -30,6 +30,10 @@ a.nav-link{
 		
 	}
 
+.khoicomment {
+    margin-top: 500px;
+}
+
 li.nav-item {
     float: none!important;
     display: inline!important;
@@ -68,9 +72,6 @@ a.nav-link {
 	}
 	.cot1_4 p{
 		color: yellow;
-	}
-	.khoicomment{
-		margin-top: 500px;
 	}
 }
 /*end menu style*/
