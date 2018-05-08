@@ -30,6 +30,8 @@ a.nav-link{
 		
 	}
 
+.col-sm-4.text-sm-center.text-xs-center.portfoliosp {margin-top: 100px;}
+
 .container.text-xs-center.khoitonghop {
     background-color:  aliceblue;
 }
@@ -186,16 +188,24 @@ span.motaqt{
 	margin-bottom: 0.9%;
 }
 /*end experience*/
+figure {
+	width: 300px;
+	height: 200px;
+	margin-left: 10%;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
 .spimg{
 	height: 200px;
-	width: 300px;
+	width: 400px;
 	transition: all 1s ease;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
-	border-radius: 10%;
+	/* border-radius: 2%; */
 }
-.spimg:hover{
+figure:hover .spimg{
 	transform: scale(1.2,1.2);
 	-webkit-transform: scale(1.2,1.2);
 	-moz-transform: scale(1.2,1.2);
@@ -223,3 +233,4 @@ span.motaqt{
 .cot1_4{
 	display: inline;
 }
+/*box kinh nghiem*/
