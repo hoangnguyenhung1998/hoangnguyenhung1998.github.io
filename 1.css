@@ -239,3 +239,18 @@ span.motaqt{
 .piechart{
 	margin-top: 50px;
 }
+.footer{
+	height: 70px;
+	width: 100%;
+	background-color: #e9585f;
+	color: white;
+}
+.designer ul{
+	margin:0;
+	padding-top: 50px;
+}
+.designer li{
+	display: inline;
+	text-decoration: none;
+	margin: 0px 50px;
+}
