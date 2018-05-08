@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
  	<script type="text/javascript" src="1.js"></script>
+ 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
  	<link rel="stylesheet" href="1.css">
@@ -21,7 +22,24 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
+	
 
+	<script type="text/javascript">
+							google.charts.load('current', {'packages':['corechart']});
+							google.charts.setOnLoadCallback(drawChart);
+							function drawChart() {
+								var data = google.visualization.arrayToDataTable([
+	        					 ['Element', 'Density', { role: 'style' }],
+	         					 ['Copper', 8.94, '#b87333'],            // RGB value
+	        					 ['Silver', 10.49, 'silver'],            // English color name
+	       						 ['Gold', 19.30, 'gold'],
+
+	      						 ['Platinum', 21.45, 'color: #e5e4e2' ], // CSS-style declaration
+	      						]);
+	      						var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+									 	 chart.draw(data, options);
+							}
+						</script>
 	<div class="menutop" id="khoimenutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 		<div class="contener">
@@ -116,15 +134,22 @@
 					</div>
 				</div>
 				<!-- end cot right -->
-				<div class="col-sm-12 experience text-xs-center">
-					<h1>Experience</h1>
-				
-				</div>
 			</div>
 		</div>
 	</div>
 	<!--end experience, working and learning-->
-	
+	<div class="khoitrinhdo">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 tieudeto text-xs-center">
+					<h1>Experience</h1>
+					<div id="piechart">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="sanpham" id="khoisp">
 		<div class="container">
 			<div class="row">
