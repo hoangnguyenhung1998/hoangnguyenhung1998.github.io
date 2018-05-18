@@ -3,10 +3,12 @@
 figure {
     width: 300px;
     height: 200px;
+    border: 1px solid grey;
     margin-left: 10%;
     padding: 0;
     background: #fff;
     overflow: hidden;
+    box-shadow: 5px 5px 5px #666;
 }
 body,html{
 	height: 100%;
@@ -130,7 +132,7 @@ a.nav-link {
 	line-height: 23px;
 	width: 30%;
 	margin: auto;
-	margin-bottom: 34px;
+	margin-bottom: 5px;
 }
 a.nuthire.btn.btn-primary{
 	background-color: black;
@@ -237,6 +239,7 @@ span.motaqt{
 }
 .cot1_4{
 	display: inline;
+	margin-top: 10px;
 }
 .piechart{
 	margin-top: 50px;
@@ -266,4 +269,34 @@ span.motaqt{
 }
 .cot-ft{
 	margin-top: 20px;
+}
+.khoi-skills{
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+}
+/* định dạng cho thẻ bao bọc các thẻ skill */
+.ex{
+    width: 100%; 
+    background-color: #ddd; 
+    padding-left: 0;
+}
+/* định dạng chung cho thẻ hiển thị skill */
+.skills {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 40px; 
+    color: white; 
+}
+/* định dạng cho từng skill theo số liệu */
+.html {width: 60%; background-color: #4CAF50;} 
+.css {width: 60%; background-color: #2196F3;}
+.js {width: 20%; background-color: #f44336;} 
+.php {width: 50%; background-color: orange;}
+.lrv {width: 10%; background-color: #808080;}
+.boxsk p{
+	margin-bottom:0px; 
+}
+.boxsk{
+	line-height: 40px;
 }

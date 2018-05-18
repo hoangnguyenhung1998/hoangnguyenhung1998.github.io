@@ -11,9 +11,13 @@
  $(".portfolio").click(function(){
  	$('body,html').animate({scrollTop:vitrisp},800)
  }) 
- vitrisp=$('#khoi-comment').offset().top;
+ vitricmt=$('#khoi-comment').offset().top;
  $(".comment").click(function(){
- 	$('body,html').animate({scrollTop:vitrisp},800)
- }) 
+ 	$('body,html').animate({scrollTop:vitricmt},800)
+ })
+ vitrikn=$('#khoikn').offset().top;
+ $(".experience").click(function(){
+ 	$('body,html').animate({scrollTop:vitrikn},800)
+ })  
 })  
  
