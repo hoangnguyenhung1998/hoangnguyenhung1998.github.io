@@ -11,5 +11,9 @@
  $(".portfolio").click(function(){
  	$('body,html').animate({scrollTop:vitrisp},800)
  }) 
+ vitrisp=$('#khoi-comment').offset().top;
+ $(".comment").click(function(){
+ 	$('body,html').animate({scrollTop:vitrisp},800)
+ }) 
 })  
  

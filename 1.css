@@ -39,6 +39,8 @@ a.nav-link{
 		
 	}
 
+.row.footer-row {background: #e9585f;}
+
 img.chart {
     height: 200px;
     width: 100%;
@@ -253,4 +255,15 @@ span.motaqt{
 	display: inline;
 	text-decoration: none;
 	margin: 0px 50px;
+}
+.cot-ft li{
+	display: inline;
+	text-decoration: none;
+	margin: 10px 10px;
+}
+.cot-ft a{
+	text-decoration: none;
+}
+.cot-ft{
+	margin-top: 20px;
 }
